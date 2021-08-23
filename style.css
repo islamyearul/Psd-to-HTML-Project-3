@@ -1,0 +1,348 @@
+
+
+/*Root*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*Root*/
+
+/*Nav-1*/
+#nav {
+border-bottom: 2px solid #97455f;
+padding: 10px 0;
+}
+#nav .left-nav {
+
+}
+#nav .left-nav i{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: black;
+    color: white;
+    opacity: 50%;
+    transition: all 0.2s ease;
+}
+#nav .left-nav i:hover{
+	background-color: #ee802f;
+	opacity: 100%;
+}
+
+#nav .right-nav {
+	padding-top: 10px
+
+}
+#nav .right-nav a{
+	margin: 0 5px;
+    color: #97455f;
+    text-decoration: none;
+}
+/*Nav-1*/
+/*Nav-2*/
+.nav-2{
+	background-color: #ebebeb;
+	padding: 50px 0;
+
+}
+.nav-2 span{
+	font-size: 60px;
+
+}
+.nav-2 #nav-2-lft h2{
+	    letter-spacing: 1px;
+	    color: #333333;
+	    font-family: georgia;
+}
+.nav-2 #nav-2-lft h4{
+	color: #999999;
+    border-left: 2px solid #999999;
+    padding-left: 10px;
+}
+.nav-2 .search-form button{
+	background: #97455f;
+    color: white;
+    height: 50px;
+    width: 110px;
+    border: 1px solid #97455f;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.nav-2 .search-form input{
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 20px;	
+}
+.nav-2 .search-form{
+	text-align: right;;
+}
+/*Nav-2*/
+/*Nav-3*/
+.nav-3 nav{
+	background: #97455f;
+	color: white;
+	border-radius: 5px;
+	padding: 0;
+	height: 50px;
+}
+.nav-3 ul li a{
+	color: white;
+	text-transform: uppercase;
+}
+.nav-3 #active{
+	background: #6a3144;
+	height: 50px;
+	border-radius: 5px 0px 0px 5px;
+
+}
+.nav-3 ul li:active{
+	background: #6a3144;
+	height: 50px;
+	border-radius: 5px 0px 0px 5px;
+
+}
+/*Nav-3*/
+
+/*Slider*/
+.slider{
+	margin: 40px 10px;
+}
+.slider .slider-section{
+	padding: 0 20px;
+}
+.slider .slider-section h2{
+	color: #fff;
+	font-weight: 700;
+}
+.slider .slider-section p{
+	color: #fff;
+	font-weight: 500;
+}
+.slider .carousel-caption{
+	    background: #adadad;
+    color: #fff;
+    width: 600px;
+    height: 150px;
+    margin-left: 310px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    transform: translate(0px, 60px);
+    background: white;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    /* margin-left: 3px; */
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #333333;
+    /* background-clip: padding-box; */
+    /* border-top: 10px solid transparent; */
+    /* border-bottom: 10px solid transparent; */
+    /* opacity: .5; */
+    /* transition: opacity .6s ease; */
+    border-radius: 50px;
+    border: 2px solid black;
+}
+/*Slider*/
+
+/*section-content-1*/
+.section-content-1{
+	margin:40px 0;
+	padding-top: 40px;
+}
+.section-content-1 span{
+	background: #ebebeb;
+    height: 5px;
+    display: block;
+    /* vertical-align: middle; */
+    margin: 10px 0;
+    padding: 0;
+}
+.section-content-1 h4{
+	margin:0;
+	padding: 0;
+}
+.section-content-1 .info-sec{
+	margin-top: 40px;
+	padding: 10px 0;
+}
+.section-content-1 .info-sec .col-md-3{
+	padding: 20px;
+	margin: 0;
+}
+.section-content-1 .info-sec img{
+	height: 80px;
+	width: 80px;	
+}
+.section-content-1 .info-sec h5{
+	color: #97455f;
+	font-size: 20px
+}
+.section-content-1 .info-sec p{
+	font-size: 15px;
+	color: #999999;
+}
+/*section-content-1*/
+
+/*section-content-2*/
+
+.section-content-2 span{
+	background: #ebebeb;
+    height: 5px;
+    display: block;
+    /* vertical-align: middle; */
+    margin: 10px 0;
+    padding: 0;
+}
+.section-content-2 .img-1{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	margin-top: 40px;
+}
+.section-content-2 .info-sec-2{
+	margin: 20px 0;
+}
+.section-content-2 .info-sec-2 h5{
+	color: #333333;	
+	    font-weight: 600;                                          
+}
+.section-content-2 .info-sec-2 p{
+	color: #999999;
+}
+.section-content-2 .info-sec-2 a{
+	color: #97455f;
+	font-size: 20px;
+	text-decoration: none;
+}
+.section-content-2 .comma-section{
+	padding-top: 20px;
+}
+.section-content-2 .img-2{
+	height:50px;
+	width: 50px
+	margin-right-10px;
+	opacity: 50%;
+}
+.section-content-2 .comma-section h5{
+		color: #333333;	
+	    font-weight: 600;  
+}
+.section-content-2 .comma-section a{
+	color: #97455f;
+	font-size: 20px;
+	text-decoration: none;
+}
+.section-content-2 .pera-section p{
+	margin-top: 10px;
+    margin-bottom: 1rem;
+    color: #999999;
+}
+.section-content-2 .bottom-content{
+	background: #97455f;
+	border-radius: 10px;
+	padding: 20px 10px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	height: 120px;
+}
+.section-content-2 .bottom-content button{
+	height: 50px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/*section-content-2*/
+
+/*Blog Section*/
+
+.blog-section{
+	height: 400px;
+	width: 100%;
+	background: #ebebeb;
+	border-top: 5px solid #d2d2d2;
+	border-bottom: 2px solid #d2d2d2;
+}
+.blog-section img{
+	height: 100px;
+	width: 100px;
+	padding: 10px 0;
+	
+}
+.blog-content{
+	padding: 50px 20px;
+}
+.blog-section h4{
+	color: #333333;
+}
+.blog-section h5{
+	color: #97455f;	
+	font-weight: 500;
+}
+.blog-section p{
+	margin-top: 10px;
+    margin-bottom: 1rem;
+    color: #999999;
+}
+.blog-section .col-md-9{
+	margin: 0;
+	padding: 10px 0;
+}
+.blog-section .contact-us button{
+	background: #97455f;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #97455f;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.blog-section .contact-us{}
+.blog-section .contact-us{}
+.blog-section{}
+.blog-section{}
+
+/*Blog Section*/
+
+
+/*Footer Section*/
+.footer{
+	background-color: #ebebeb;
+	height: 60px;
+	border-top: 3px solid white;
+}
+.footer .footer-content{
+	margin: 20px 20px;
+}
+
+/*Footer Section*/
